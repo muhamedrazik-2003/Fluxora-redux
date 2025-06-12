@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --text: hsl(0, 0%, 100%);
+  --background: hsl(0, 0%, 0%);
+  --primary: hsl(0, 100%, 50%);
+  --secondary: hsl(44, 93%, 65%);
+  --accent: hsl(56, 94%, 49%);
+}
+
+
+
+
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: 'Outfit';
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Outfit';
+  font-weight: 700;
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 2.489rem; /* 39.84px */}
+
+h2 {font-size: 2.074rem; /* 33.12px */}
+
+h3 {font-size: 1.728rem; /* 27.68px */}
+
+h4 {font-size: 1.440rem; /* 23.04px */}
+
+h5 {font-size: 1.200rem; /* 19.2px */}
+
+small {font-size: 0.833rem; /* 13.28px */}
